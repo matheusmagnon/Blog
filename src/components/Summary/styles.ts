@@ -2,9 +2,9 @@ import styled from "styled-components";
 
 export const SummaryContainer = styled.div`
   background-color: ${(props) => props.theme["base-profile"]};
-  height: 212px;
+  /* height: 212px; */
   width: 100%;
-  max-width: 864px;
+  /* max-width: 864px; */
   margin: 0 auto;
   margin-top: -6rem;
   position: relative;
@@ -35,11 +35,13 @@ export const BaseText = styled.p`
   color: ${(props) => props.theme["base-text"]};
   font-size: 16px;
   padding-right: 24px;
+  /* white-space: nowrap; */
 `;
 
 export const AboutProfile = styled.div`
   display: flex;
   flex-direction: row;
+  white-space: nowrap;
 
   img {
     width: 1.6rem;

@@ -20,7 +20,7 @@ export function Summary() {
   return (
     <SummaryContainer>
       <SummaryContent>
-        <img src={profile?.avatar_url} />
+        <img loading="lazy" src={profile?.avatar_url} />
         <div>
           <h1>{profile?.name}</h1>
           <BaseText>{profile?.bio}</BaseText>
