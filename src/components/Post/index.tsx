@@ -1,16 +1,16 @@
-import { CardPost } from "../CardPost";
+import { CardRepository } from "../CardRepository";
 import { PostsContainer } from "./styles";
 
 export function Posts() {
   return (
     <PostsContainer>
-      <CardPost />
-      <CardPost />
-      <CardPost />
-      <CardPost />
-      <CardPost />
-      <CardPost />
-      <CardPost />
+      <CardRepository />
+      <CardRepository />
+      <CardRepository />
+      <CardRepository />
+      <CardRepository />
+      <CardRepository />
+      <CardRepository />
     </PostsContainer>
   );
 }

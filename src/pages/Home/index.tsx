@@ -1,4 +1,4 @@
-import { CardPost } from "../../components/CardPost";
+import { CardRepository } from "../../components/CardRepository";
 import { Header } from "../../components/Header";
 import { Posts } from "../../components/Post";
 import { SearchForm } from "../../components/SearchForm";

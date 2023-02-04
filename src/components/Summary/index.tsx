@@ -14,7 +14,7 @@ import { defaultTheme } from "../../styles/themes/default";
 
 export function Summary() {
   const { profile } = useContext(IssuesContext);
-  console.log("🚀 ~ file: index.tsx:7 ~ Summary ~ profile", profile);
+  // console.log("🚀 ~ file: index.tsx:7 ~ Summary ~ profile", profile);
   // console.log(profile);
 
   return (
